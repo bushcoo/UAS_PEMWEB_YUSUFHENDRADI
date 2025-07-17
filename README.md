@@ -53,16 +53,10 @@ $db   = "todo_app";
 - Font Awesome 6.7.2 (Icons)
 - Custom CSS (Styling)
 
-## 🔒 Security Features
 
-- SQL Injection prevention using prepared statements
-- XSS protection with `htmlspecialchars()`
-- Input validation and sanitization
-- Safe integer type casting
+## 📝 Made BY
 
-## 📝 License
-
-MIT License
+Yusuf Hendradi
 
 ## 👤 Author
 
