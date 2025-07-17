@@ -7,9 +7,7 @@ A sleek and responsive todo list application built with PHP, MySQL, and Bootstra
 - 📱 Fully responsive design
 - ✅ Create, Read, Update, Delete (CRUD) tasks
 - 🎨 Clean and modern UI with Bootstrap 5
-- 🔒 Secure data handling with prepared statements
 - 🔔 Interactive notifications
-- 💾 Session-based messaging system
 
 ## 🚀 Quick Setup
 
@@ -18,20 +16,6 @@ A sleek and responsive todo list application built with PHP, MySQL, and Bootstra
 - PHP 7.4+
 - MySQL 5.7+
 - Web server (Apache/Nginx)
-
-### Database Configuration
-
-```sql
-CREATE DATABASE todo_app;
-USE todo_app;
-
-CREATE TABLE todos (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    judul VARCHAR(255) NOT NULL,
-    deskripsi TEXT,
-    status ENUM('Belum Selesai', 'Selesai') DEFAULT 'Belum Selesai'
-);
-```
 
 ### Application Setup
 
@@ -58,10 +42,6 @@ $db   = "todo_app";
 
 Yusuf Hendradi
 
-## 👤 Author
-
-Made with ❤️ in Indonesia
-
 ---
 
-**Note:** This project is for educational purposes and demonstrates basic CRUD operations with PHP and MySQL.
+**Note:** Untuk Memenuhi Nilai UAS Pemograman Web
